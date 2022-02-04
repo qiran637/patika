@@ -1,2 +1,2 @@
 # patika
-This repository is for projects from patika.dev
+This repository is for assignments and projects from patika.dev
