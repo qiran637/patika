@@ -2,7 +2,7 @@ package java101.odev;
 
 import java.util.Scanner;
 
-public class NotOrtalamaProgram {
+public class Odev1_NotOrtalamaProgram {
     public static void main(String[] args) {
         int math, fizik, kimya, turkce, tarih, muzik;
 

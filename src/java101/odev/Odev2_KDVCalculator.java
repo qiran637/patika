@@ -2,7 +2,7 @@ package java101.odev;
 
 import java.util.Scanner;
 
-public class KDVCalculator {
+public class Odev2_KDVCalculator {
     public static void main(String[] args) {
         double tutar, kdvOran;
         Scanner input = new Scanner(System.in);
