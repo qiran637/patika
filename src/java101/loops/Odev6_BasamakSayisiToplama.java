@@ -2,7 +2,7 @@ package java101.loops;
 
 import java.util.Scanner;
 
-public class Odev5_BasamakSayisiToplama {
+public class Odev6_BasamakSayisiToplama {
     public static void main(String[] args) {
         /*
          * Ödev
