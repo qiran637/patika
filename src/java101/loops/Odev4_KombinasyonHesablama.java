@@ -13,17 +13,14 @@ public class Odev4_KombinasyonHesablama {
         System.out.print("r'in degerini giriniz : ");
         r = input.nextInt();
 
-        // n'in faktoriali
-        for (int i = 2; i <= n; i++) {
+        for (int i = 1; i <= n; i++) {
             fakn *= i;
-        }
-        // n'in faktoriali
-        for (int i = 2; i <= r; i++) {
-            fakr *= i;
-        }
-        // n-r 'in faktoriali
-        for (int i = 2; i <= n - r; i++) {
-            fakf *= i;
+            if (i <= r) {
+                fakr *= i;
+            }
+            if (i <= n - r) {
+                fakf *= i;
+            }
         }
 
         System.out.println("C(" + n + "," + r + ") = " + fakn/(fakr*fakf));
