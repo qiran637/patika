@@ -2,7 +2,7 @@ package java101.loops;
 
 import java.util.Scanner;
 
-public class Odev4_UsluSayiHesablama {
+public class Odev5_UsluSayiHesablama {
     public static void main(String[] args) {
         /*
        *
