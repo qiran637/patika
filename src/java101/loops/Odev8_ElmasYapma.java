@@ -1,20 +1,30 @@
 package java101.loops;
 
+import java.util.Scanner;
+
 public class Odev8_ElmasYapma {
     public static void main(String[] args) {
 
-        for (int i = 5; i>=-3;i--){
+        Scanner input = new Scanner(System.in);
+        System.out.print("Sayi Giriniz : ");
+        int n = input.nextInt();
+        int i = 0;
+        while (i< 2*n-1){
             //System.out.print("\t");
-            int j=0;
-            for(; j<Math.abs(i-1);j++){
+            int j;
+            for(j = 0; j < Math.abs(i+1-n) ;j++){
                 System.out.print(" ");
             }
-            for(int k=8; k>=Math.abs(i-1)+j;k--) {
+
+            int val = i < n ? i : (2 * n - 2 - i);
+
+            for (int k = 0; k < 2*val+1; k++) {
                 System.out.print("*");
             }
-            if (i==-3)
-                break;
+
             System.out.println();
+            i++;
+
         }
 
     }
