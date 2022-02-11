@@ -2,7 +2,7 @@ package java101.loops;
 
 import java.util.Scanner;
 
-public class ODEV11_MinMaxSayiBulma {
+public class Odev11_MinMaxSayiBulma {
     public static void main(String[] args) {
 
         int n, num, min = 0, max = 0;
