@@ -8,23 +8,15 @@ public class Odev8_ElmasYapma {
         Scanner input = new Scanner(System.in);
         System.out.print("Sayi Giriniz : ");
         int n = input.nextInt();
-        int i = 0;
-        while (i< 2*n-1){
-            //System.out.print("\t");
-            int j;
-            for(j = 0; j < Math.abs(i+1-n) ;j++){
-                System.out.print(" ");
-            }
+        for (int i = 0; i< 2*n-1; i++){
 
-            int val = i < n ? i : (2 * n - 2 - i);
-
-            for (int k = 0; k < 2*val+1; k++) {
-                System.out.print("*");
-            }
+            int degisken = i < n ? i : (2 * n - 2 - i);
+            //loop for print black space
+            for(int j = 0; j < n-1-degisken ;j++) System.out.print(" ");
+            //loop for print * sign
+            for (int j = 0; j < 2*degisken+1; j++) System.out.print("*");
 
             System.out.println();
-            i++;
-
         }
 
     }
