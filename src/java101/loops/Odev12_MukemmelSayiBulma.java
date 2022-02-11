@@ -21,8 +21,5 @@ public class Odev12_MukemmelSayiBulma {
         else
             System.out.println(num + " Mükemmel sayı değildir.");
 
-
-
-
     }
 }
