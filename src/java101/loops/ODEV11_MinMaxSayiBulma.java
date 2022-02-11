@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ODEV11_MinMaxSayiBulma {
     public static void main(String[] args) {
 
-        int n, num, min = Integer.MAX_VALUE, max = Integer.MIN_VALUE;
+        int n, num, min = 0, max = 0;
 
         Scanner input = new Scanner(System.in);
         System.out.print("Kaç tane sayı gireceksiniz: ");
@@ -13,6 +13,12 @@ public class ODEV11_MinMaxSayiBulma {
         for (int i = 1; i <= n; i++) {
             System.out.print(i + ". Sayıyı giriniz: ");
             num = input.nextInt();
+
+            if (i == 1) {
+                min = num;
+                max = num;
+            }
+
             if (num<min) min = num;
             if (num>max) max = num;
 
