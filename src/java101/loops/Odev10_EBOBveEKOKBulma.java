@@ -8,9 +8,9 @@ public class Odev10_EBOBveEKOKBulma {
         int n1, n2, EBOB=0, EKOK;
 
         Scanner input = new Scanner(System.in);
-        System.out.print("Birinci Sayi Giriniz : ");
+        System.out.print("Birinci Sayiyi Giriniz : ");
         n1 = input.nextInt();
-        System.out.print("Birinci Sayi Giriniz : ");
+        System.out.print("İkinci Sayiyi Giriniz : ");
         n2 = input.nextInt();
 
         int max = n1 >= n2 ? n1 : n2;
