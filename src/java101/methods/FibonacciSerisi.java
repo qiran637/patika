@@ -12,6 +12,8 @@ public class FibonacciSerisi {
 
     public static int fibonacciTap(int num){
 
+        //f(n) = f(n-1) + f(n-2)
+
         if (num==2 || num == 1){
             return 1;
         }
