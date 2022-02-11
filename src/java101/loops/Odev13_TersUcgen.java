@@ -1,7 +1,5 @@
 package java101.loops;
 
-import jdk.swing.interop.SwingInterOpUtils;
-
 import java.util.Scanner;
 
 public class Odev13_TersUcgen {
