@@ -2,7 +2,7 @@ package java101.methods;
 
 import java.util.Scanner;
 
-public class ODEV4_RecursiveIleAsalSayi {
+public class Odev4_RecursiveIleAsalSayi {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
