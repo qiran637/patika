@@ -8,6 +8,7 @@ public class FibonacciSerisi {
         Scanner input = new Scanner(System.in);
         System.out.print("Fibonacci Serisi'nin hangi elemanini istiyorsunuz : ");
         System.out.println(fibonacciTap(input.nextInt()));
+
     }
 
     public static int fibonacciTap(int num){
