@@ -21,8 +21,10 @@ public class Ring {
             while (f1.health > 0 && f2.health > 0) {
                 System.out.println("======== YENİ ROUND ===========");
 
-                Random random = new Random();
-                boolean begin = random.nextBoolean();
+                /*Random random = new Random();
+                boolean begin = random.nextBoolean();*/
+                int status = (int) (Math.random() * 100) + 1;
+                boolean begin = status > 50;
 
                 if (begin)
                     f2.health = f1.hit(f2);
@@ -50,7 +52,7 @@ public class Ring {
             System.out.println("Maçı Kazanan : " + f2.name);
             return true;
         } else if (f2.health == 0) {
-            System.out.println("Maçı Kazanan : " + f2.name);
+            System.out.println("Maçı Kazanan : " + f1.name);
             return true;
         }
 
