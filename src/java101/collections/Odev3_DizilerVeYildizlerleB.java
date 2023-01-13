@@ -1,6 +1,8 @@
 package java101.collections;
 
 public class Odev3_DizilerVeYildizlerleB {
+    
+    String globalString = "helhidf";
     public static void main(String[] args) {
         String[][] letter = new String[7][4];
 
