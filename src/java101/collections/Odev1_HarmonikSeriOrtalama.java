@@ -11,5 +11,13 @@ public class Odev1_HarmonikSeriOrtalama {
             harmonikToplam += 1.0 / dizi[i];
         }
         System.out.println(dizi.length / harmonikToplam);
+
+        while (true) {
+            System.out.println("local changessssssssssssssssssssss");
+        }
+    }
+
+    public void newMethod() {
+        System.out.println("local method");
     }
 }
