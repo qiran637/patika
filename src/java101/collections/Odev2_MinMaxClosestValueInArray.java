@@ -37,5 +37,7 @@ public class Odev2_MinMaxClosestValueInArray {
 
         System.out.println("Girilen sayıdan küçük en yakın sayı : " + smallerClosest);
         System.out.println("Girilen sayıdan büyük en yakın sayı : " + greaterClosest);
+        
+                System.out.println("remote kafjlkadjflkjdsf");
     }
 }
