@@ -26,4 +26,8 @@ public class Odev1_HarmonikSeriOrtalama {
     public void newMethod() {
         System.out.println("local method");
     }
+    
+    public void newRemoteMethod() {
+        System.out.println("REmote method 2");
+    }
 }
