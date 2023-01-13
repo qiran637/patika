@@ -11,5 +11,12 @@ public class Odev1_HarmonikSeriOrtalama {
             harmonikToplam += 1.0 / dizi[i];
         }
         System.out.println(dizi.length / harmonikToplam);
+        
+        int remoteVar = 8;
+        do {
+            System.out.println("Changing from remote remote remote");
+           
+            remote++;
+        } while (remote < 12);
     }
 }
